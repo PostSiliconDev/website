@@ -141,9 +141,9 @@ function displaySystemStats() {
         statsOutput.style.color = '#cccccc';
         statsOutput.innerHTML = `
             <div style="color: #00ff41;">OS:</div>
-            <div style="padding-left: 20px;">PostSilicon Linux 2024.1</div>
+            <div style="padding-left: 20px;">PostSilicon Linux 2025.6.3</div>
             <div style="color: #00ff41; margin-top: 10px;">Uptime:</div>
-            <div style="padding-left: 20px;">${Math.floor(Date.now() / 86400000)} days</div>
+            <div style="padding-left: 20px;">${Math.floor((Date.now() - 1748865600000) / 86400000)} days</div>
             <div style="color: #00ff41; margin-top: 10px;">Shell:</div>
             <div style="padding-left: 20px;">zsh 5.9 (x86_64-pc-linux-gnu)</div>
             <div style="color: #00ff41; margin-top: 10px;">Terminal:</div>
